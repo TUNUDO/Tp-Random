@@ -1,0 +1,7 @@
+name: TpRandom
+version: 1.0
+main: it.tunudo.Plugin
+commands:
+  tprandom:
+    description: Command for teleport the players in a random and secure location
+    aliases: [ ]
