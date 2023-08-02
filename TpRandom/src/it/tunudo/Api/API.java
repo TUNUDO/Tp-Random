@@ -13,7 +13,7 @@ public class API {
         int z = random.nextInt(100000 - -1000000);
         player.teleport(new Location(player.getWorld(),x,player.getWorld().getHighestBlockYAt(x,z),z));
         if(!(Message.isEmpty())) {
-            player.sendMessage(Message);
+            player.sendMessage(Message.replaceAll("%world%", player.getLocation().getWorld().getName()).replaceAll("%z%",String.valueOf(z)).replaceAll("%x%",String.valueOf(x)));
         }
         if((!(Big_Title.isEmpty())) && Small_Title.isEmpty()) {
             player.sendTitle(
