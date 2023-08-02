@@ -1,5 +1,7 @@
 package it.tunudo.Teleport;
 
+import it.tunudo.Plugin;
+import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
