@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TpRandom:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TpRandom_jar</output-path>
+    <root id="archive" name="TpRandom.jar">
+      <element id="module-output" name="TpRandom" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+    </root>
+  </artifact>
+</component>
